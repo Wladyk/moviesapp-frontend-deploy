@@ -1,6 +1,6 @@
 import { ClassNames } from "@emotion/react";
 import axios from "axios";
-const URL = "http://moviapps-be.herokuapp.com";
+const URL = "https://movieapps-be.herokuapp.com";
 export const postRequest = (route, payload = null, tokenPayload = null) => {
     if (tokenPayload != null) {
         var tokenPayload = 'Token ' + tokenPayload;
