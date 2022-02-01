@@ -1,0 +1,10 @@
+export {default as Home} from './Home/Home';
+export {default as Navbar} from './Navbar/Navbar';
+export {default as SignUp} from './SignUp/SignUp';
+export {default as Login} from './Login/Login';
+export {default as Movies} from './Movies/Movies';
+export {default as Rating} from './Rating/Rating';
+export {default as Logout} from './Logout/Logout';
+export {default as Watchlist} from './Watchlist/Watchlist';
+export {default as MovieDetail} from './MovieDetail/MovieDetail';
+export {default as Admin} from './Admin/Admin';
