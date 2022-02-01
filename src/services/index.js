@@ -11,7 +11,8 @@ export const postRequest = (route, payload = null, tokenPayload = null) => {
         timeout: 8000,
         headers: {
             'Content-Type': 'application/json',
-            'Authorization': tokenPayload
+            'Authorization': tokenPayload,
+            'Access-Control-Allow-Origin': '*'
         },
         data: JSON.stringify(payload)
     })
@@ -29,7 +30,8 @@ export const deleteRequest = (route, payload = null, tokenPayload = null) => {
         timeout: 8000,
         headers: {
             'Content-Type': 'application/json',
-            'Authorization': tokenPayload
+            'Authorization': tokenPayload,
+            'Access-Control-Allow-Origin': '*'
         },
         data: JSON.stringify(payload)
     })
