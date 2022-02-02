@@ -11,7 +11,7 @@ const Admin = () => {
           to use Django admin panel instead.
       </p>
       <p>As a side comment, I always recomment its use, regardless of the front end system involved.</p>
-      <h3><a href="">Go to Django Admin panel</a></h3>
+      <h3><a href="https://movieapps-be.herokuapp.com/admin/">Go to Django Admin panel</a></h3>
     </Container>
   );
 }
